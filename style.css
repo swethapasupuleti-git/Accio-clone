@@ -1,0 +1,197 @@
+
+.navbar-nav{
+    margin-left: 60%;
+}
+.navbar-nav>.nav-item{
+margin-left: 15px;
+}
+
+.next-batch{
+    background-color: blue;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.hero-sec{
+    width: 100%;
+    
+}
+.about{
+flex: 3;
+padding:100px;
+}
+.launch>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.career{
+    width: 720px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 20px blue;
+}
+.student{
+    width: 250px;
+    height: 25px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px blue;
+}
+.my-card-sec{
+    flex:3;
+}
+.my-card{
+    width: 400px;
+    height:480px;
+    background-color: white;
+    box-shadow: 0px 0px 20px blueviolet;
+    display: grid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.head-para{
+    margin-top: 20px;
+}
+
+.input-box>input{
+    width:350px;
+}
+.button-para>p{
+    margin-top: 20px;
+}
+.button-para>button{
+    width:350px;
+    margin-top: 20px;
+}
+.my-form1,.my-form2{
+
+background-color: white;
+border-radius: 5px;
+margin-left: 20px;
+margin-left: 20px;
+display: grid;
+box-shadow: 0px 0px 10px skyblue;
+margin-bottom: 100px;
+}
+.my-form1>.begi ,.my-form2>.begi{
+    padding-top: 30px;
+    
+    
+}
+.begi>button, .begi>p{
+    margin-top: 10px;
+}
+td{
+    width: 50%;
+    padding: 20px;
+}
+.butons{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.my-container{
+    width:100%;
+    
+}
+.my-network{
+    padding-top: 40px;
+}
+.my-container>div>img{
+padding: 30px;
+}
+.images{
+    margin: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    grid-template-rows: repeat(3, 3fr);
+}
+.bottom-heading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-review{
+width: 350px;
+height: 260px;
+padding: 24px;
+background-color: white;
+border-radius: 10px;
+box-shadow:0px 0px 10px;
+}
+.my-review2{
+    width: 350px;
+    height: 360px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+}
+.my-review3{
+    width: 350px;
+    height: 310px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+}
+.my-review4{
+    width: 350px;
+    height: 310px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+}
+.my-review5{
+    width: 350px;
+    height: 190px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+}
+.my-review6{
+    width: 350px;
+    height: 260px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px;
+}
+.our-courses-head{
+    background-color: rgba(236, 248, 255, 1);
+    width: 100%;
+    
+}
+.headings{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.headings>h1{
+    color: rgba(47, 128, 237, 1);
+
+}
+.headings>h3{
+    color: rgba(153, 47, 237, 1)
+    
+}
+.container{
+    width: 100%;
+    height: 700px;
+}
+@media screen and (max-width:768px){
+    nav{
+        flex-direction: column !important;
+    }
+    .images{
+        
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(18, 18fr) !important; 
+    }
+    .my-review2, .my-review3, .my-review4, .my-review5, .my-review6{
+        margin-top: 10px;
+    }
+}
